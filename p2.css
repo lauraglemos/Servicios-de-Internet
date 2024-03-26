@@ -1,0 +1,62 @@
+/* Estilo general para el cuerpo de la página */
+body {
+    background-color: #E7E3E2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Estilo para el título principal */
+h1 {
+    color: #422320;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Estilo para el resto de títulos */
+h2 {
+    color:#734F30;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color:#734F30;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Estilo para los párrafos */
+p {
+    color:#A6845B;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Estilo para los botones */
+button {
+        color:#422320;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        position: relative;
+        width: 150px;
+        margin: 50px; 
+        text-align: center;
+       
+    }
+
+button.hover{
+
+        color:blue;    
+        }
+
+
+/* Estilo para la lista ordenada */
+ol {
+
+    color: #422320;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+/* Estilo para los libros no disponibles */
+.no-disponible {
+    color: red;
+}
