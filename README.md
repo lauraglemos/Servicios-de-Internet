@@ -1,4 +1,5 @@
 La práctica consiste en implementar un servicio de consultas sobre la información de los ficheros LML.
+
 A través de interfaz HTML, se generarán pantallas navegables desde el browser. Esta incluirá los elementos
 necesarios para que el usuario prosiga la consulta enviando, en cada fase, un parámetro de las siguientes que guiará
 la evolución de la consulta. En estas pantallas se implementará la siguiente sucesión de consultas a través de fases (indicada mediante el
@@ -25,13 +26,21 @@ Se escribirá una serie de métodos que deben recibir los parámetros indicados,
 y devolver (ya ordenados por identificador en sentido creciente, es decir, primero los menores) los datos de la
 respuesta a cada fase de la consulta, independientemente del tipo de consulta que sea. Los métodos para la consulta
 son:
+
 • ArrayList<Author> getAuthors(String countryId)
+
 • ArrayList<Book> getBooks (String authorId)
+
 • ArrayList<Country> getCountries ()
+
 • Author getAuthor(String authorId)
+
 • Country getCountry(String countryId)
+
 • Book getBook(String bookId)
+
 Los nombres y parámetros son los indicados, todos obligatorios, y no se permite ninguno adicional.
+
 Los tipos de datos Author, Book y Country serán clases definidas en la práctica para agrupar toda la necesaria que se
 usará posteriormente para crear la respuesta. Deberán contener, al menos, una variable miembro llamada identificador
 que actuará como clave primaria.
